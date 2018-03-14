@@ -73,7 +73,7 @@ $cz-color-secondary-dark:   rgb(4,156,165);         // #049ca5*/
 
   background-image: url('assets/codezilla-small.png'), url('assets/scratch.png');;
   background-repeat: no-repeat, no-repeat;
-  background-position: bottom right, top right;
+  background-position: bottom left, top right;
 }
 
 ::selection {
@@ -158,6 +158,14 @@ $cz-color-secondary-dark:   rgb(4,156,165);         // #049ca5*/
 .reveal iframe {
   max-width: 95%;
   max-height: 95%; }
+
+.reveal img.single {
+  margin: 0;
+}
+
+.reveal span.highlight {
+  color: #68d517;
+}
 
 .reveal strong,
 .reveal b {
