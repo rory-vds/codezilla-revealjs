@@ -173,7 +173,7 @@ $cz-color-secondary-dark:   rgb(4,156,165);         // #049ca5*/
     margin: 0;
 }
 
-.reveal span.highlight {
+.reveal .highlight {
     color: #68d517;
 }
 
