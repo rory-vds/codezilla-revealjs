@@ -71,9 +71,9 @@ $cz-color-secondary-dark:   rgb(4,156,165);         // #049ca5*/
     font-weight: normal;
     color: #fff;
 
-    background-image: url('assets/codezilla-small.png'), url('assets/scratch.png');;
+    background-image: url('icons/logo-light.svg'), url('assets/scratch.png');;
     background-repeat: no-repeat, no-repeat;
-    background-position: bottom left, top right;
+    background-position: 10px calc(100vh - 40px), top right;
 }
 
 ::selection {
