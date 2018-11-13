@@ -5,10 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <title>CODEZILLA Kennissessie</title>
+    <title>CODEZILLA</title>
 
     <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/codezilla.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="css/theme/icons/favicon-32x32.png?v=BGBPjAyxEE">
+    <link rel="icon" type="image/png" sizes="16x16" href="css/theme/icons//favicon-16x16.png?v=BGBPjAyxEE">
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
@@ -20,6 +23,7 @@
         link.type = 'text/css';
         link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
         document.getElementsByTagName('head')[0].appendChild(link);
+
     </script>
 </head>
 
@@ -28,71 +32,187 @@
         <div class="slides">
             <!-- <section data-background="css/theme/assets/openings-image.jpg"></section> -->
             <!-- <section data-background="css/theme/assets/diagonal-code.png"></section> -->
-            <section data-background="css/theme/assets/blue-bits.jpg"></section>
-            <section data-background="css/theme/assets/green-bits.jpg"></section>
+            <!-- <section data-background="css/theme/assets/blue-bits.jpg"></section> -->
+            <!-- <section data-background="css/theme/assets/green-bits.jpg"></section> -->
 
             <section>
-                <h2>Docker - 12-09-2018</h2>
+                <h2><span class="highlight">NodeConf</span>.EU <br /> November <span class="highlight">2018</span></h2>
+                <img class="single" src="css/theme/assets/conf/landscape.jpg" alt="">
             </section>
 
             <section>
                 <h2>Agenda</h2>
                 <ul>
-                    <li>What is Docker?</li>
-                    <li>Why use Docker?</li>
-                    <li>How do you use Docker?</li>
-                    <li>Recap</li>
-                    <li>Links</li>
+                    <li>Badge</li>
+                    <li>Speakers</li>
+                    <li>Workshops</li>
+                    <li>Conclusion</li>
                 </ul>
             </section>
 
             <section>
-                <h2>What is Docker?</h2>
+                <h2>Badge</h2>
+                <!-- Just a picture of the badges table -->
+                <p>Based on Espruino and Pixl.js</p>
+                <p>More about this later</p>
+                <img class="single fit" src="css/theme/assets/conf/badges.jpg" />
+            </section>
+
+            <section>
+                <h2>Speakers</h2>
+                <ul>
+                    <li>FaaS & Serverless</li>
+                    <li>Machine Learning / AI</li>
+                    <li>State of Node.js Core</li>
+                    <li>NPM Analyze</li>
+                    <li>How and what to look for in a readme</li>
+                    <li>Orinoco: The new V8 Garbage Collector</li>
+                </ul>
+                <p>And many more..</p>
+            </section>
+
+            <section>
                 <section>
-                    <p class="highlight">Highlight class</p>
-                    <p>Just like a marker!</p>
-                    <aside class="notes">Notes?</aside>
-                    <p class="fragment">Fragments </p><p class="fragment">appear </p><p class="fragment">one by one</p>
+                    <h2>Serverless & FaaS</h2>
+
+                    <img src="css/theme/assets/conf/faas.png" alt="">
+                    <aside class="notes">
+                        <p>
+                            Learn about the architecture and internals of Netflix’s JS FaaS platform, which lets engineers deploy JS functions as isolated, reliable, and low latency production services.
+                        </p>
+                        <p> and Netflix talked about the serverless; microservices in the cloud, function as a service.
+                            You deploy smaller portions of your functionality to the cloud, allowing it to be automatically and indepedently scale.
+                        </p>
+                    </aside>
+                </section>
+                <section>
+                    <h2>Machine Learning / AI </h2>
+                    <p>
+                        A Doppelganger game using image recognition
+                    </p>
+                    <p>
+                        Tensorflow.js: open source framework for machine learning
+                    </p>
+                </section>
+                <section>
+                    <h2>State of Node.js Core</h2>
+                    <ul>
+                        <li>Node 10.x release</li>
+                        <li>Node 12.0.0 is coming in 2019, April 23rd</li>
+                    </ul>
+                    <p>Current focus: making it faster</p>
+                    <p>Node 11.x has worker threads, effectively allowing us to use multithreading for CPU intensive JS operations</p>
+                    <aside class="notes">
+                        Http2 support in 10/11
+                    </aside>
+                </section>
+                <section>
+                    <h2>NPM Analyze</h2>
+                    <p>
+                        CLI tool to analyze the content, or the dependencies of your project. Free space, cluttering and dependencies get a better look.
+                    </p>
+                </section>
+                <section>
+                    <h2>Tips on how to build documentation</h2>
+                    <p>
+                        Documentation is critical in creating a successful open source project, yet it can be hard to know where to start. Tips on how, what, why.
+                        <aside class="notes">Copy pasteable code, common use cases, common bugs, requirements, installation etc </aside>
+                    </p>
+                </section>
+                <section>
+                    <h2>Orinoco: The new V8 Garbage Collector</h2>
+                    <img class="single fit" src="css/theme/assets/conf/gc1.png" alt="" />
+                </section>
+                <section>
+                    <img class="single fit" src="css/theme/assets/conf/gc2.png" alt="" />
+                </section>
+                <section>
+                <p>And many more:</p>
+                <ul>
+                    <li>ES Modules</li>
+                    <li>Istio</li>
+                    <li>Diagnostic Tooling in production</li>
+                    <li>Yarn Package management</li>
+                    <li>Etc etc..</li>
+                </ul>
+                </section>
+            </section>
+
+            <section>
+                <section>
+                    <h2>Workshops</h2>
+                    <aside class="notes">
+                        After the talks we had the opportunity to join some workshops.
+                    </aside>
+                </section>
+                <section>
+                    <!-- // Building your own Google Assistant app with node.js -->
+                    <h2>Google Assistant</h2>
+                    <p>Building your own google assistant voice command!</p>
+                    <img class="single fit" src="css/theme/assets/conf/actions.png" alt="">
                 </section>
 
-                <section>Multiple nested sections</section>
+                <section>
+                    <!-- // Building your own Google Assistant app with node.js -->
+                    <h2>GraphQL & Serverless</h2>
+                    <p>Building upon the foundation of the talks in the earlier day</p>
+                    <aside class="notes">Build a graphQL server, then deploy it as a function in the cloud</aside>
+                </section>
 
                 <section>
-                    <p>Image class .single</p>
-                    <img class="single" src="css/theme/assets/tutorial/hax.gif" />
+                    <h3>Bluetooth LE, Microcontrollers and Badges</h3>
+                    <!-- // Bluetooth LE, Microcontrollers and Badges -->
+                    <img class="single fit" src="css/theme/assets/conf/mybadge.jpg" alt="">
+                </section>
+
+                <section>
+                    <h2>Custom badge.js!</h2>
+                    <!-- Show awesome codezilla badge ;) -->
+                    <img class="single fit" src="css/theme/assets/conf/hacked-badge.jpg" alt="">
+                </section>
+
+                <section>
+                    <h2>"Workshops"</h2>
+                    <aside class="notes">
+                        Sadly not all workshops were that great.
+                        Either wifi was overloaded or the workshop leads were not in sync with the workgroup.
+                    </aside>
+                </section>
+                <section>
+                    <p>More hacking badges</p>
+                    <img class="single fit" src="css/theme/assets/conf/badge-hack.jpg" alt="">
+                </section>
+                <!-- mario kart -->
+                <section>
+                    <p>"Teambuilding"</p>
+                    <img class="single fit" src="css/theme/assets/conf/kart.jpg" alt="">
+                </section>
+                <!-- beer -->
+                <section>
+                    <p>Teambuilding continued</p>
+                    <img class="single fit" src="css/theme/assets/conf/kart2.jpg" alt="">
+                </section>
+                <!-- whiskey -->
+                <section>
+                    <p>Just a tad thirsty</p>
+                    <img class="single fit" src="css/theme/assets/conf/beer.jpg" alt="">
+                </section>
+                <!-- food -->
+                <section>
+                    <p>Teambuilding can't be done on an empty stomach</p>
+                    <img class="single fit" src="css/theme/assets/conf/pork.jpg" alt="">
                 </section>
             </section>
-
             <section>
-                <h2>Why use Docker?</h2>
-                <p>Image/container based deployment</p>
-                <p>Local development</p>
-
-                <h3>Nadelen</h3>
-                <p></p>
-            </section>
-            
-            <section>
-                <h2>How do you use Docker?</h2>
-
+                <h2>Conclusion</h2>
+                <aside class="notes">
+                    It was an alright conference, it did inspire us to look into tech/methods we haven't touched yet.
+                </aside>
+                <!-- Stage group photo or Guinness -->
+                <img class="single fit" src="css/theme/assets/conf/stage.jpg" alt="">
             </section>
             <section>
-                <h2>Recap</h2>
-                <ul>
-                    <li>Images</li>
-                    <li>Local dev</li>
-                    <li>Kubernetes</li>
-                    <li>https://www.airpair.com/docker/posts/8-proven-real-world-ways-to-use-docker</li>
-                </ul>
-            </section>
-            <section>
-                <h2>Links</h2>
-                <ul>
-                    <li>Images</li>
-                    <li>Local dev</li>
-                    <li>Kubernetes</li>
-                    <li>https://www.airpair.com/docker/posts/8-proven-real-world-ways-to-use-docker</li>
-                </ul>
+                <img class="single fit" src="css/theme/assets/conf/my-shop.jpg" alt="">
             </section>
         </div>
     </div>

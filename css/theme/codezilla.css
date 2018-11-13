@@ -171,6 +171,13 @@ $cz-color-secondary-dark:   rgb(4,156,165);         // #049ca5*/
 
 .reveal img.single {
     margin: 0;
+
+}
+
+.reveal img.single.fit {
+    width: 500px;
+    /* max-width: 70%; */
+    /* max-height: 70%; */
 }
 
 .reveal .highlight {
